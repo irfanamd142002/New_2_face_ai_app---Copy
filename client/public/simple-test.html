@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Camera Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+        video {
+            max-width: 100%;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Camera Test</h1>
+    
+    <div>
+        <button onclick="testAlert()">Test Alert</button>
+        <button onclick="testConsole()">Test Console</button>
+        <button id="startBtn" onclick="startCamera()">Start Camera</button>
+        <button id="stopBtn" onclick="stopCamera()" disabled>Stop Camera</button>
+    </div>
+
+    <div id="status" class="status info">Ready to test</div>
+
+    <video id="video" autoplay playsinline muted style="display: none;"></video>
+
+    <div id="info">
+        <h3>Browser Information:</h3>
+        <p><strong>User Agent:</strong> <span id="userAgent"></span></p>
+        <p><strong>Protocol:</strong> <span id="protocol"></span></p>
+        <p><strong>Host:</strong> <span id="host"></span></p>
+        <p><strong>MediaDevices Support:</strong> <span id="mediaSupport"></span></p>
+        <p><strong>getUserMedia Support:</strong> <span id="getUserMediaSupport"></span></p>
+    </div>
+
+    <script>
+        let stream = null;
+        const video = document.getElementById('video');
+        const status = document.getElementById('status');
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+
+        // Initialize info
+        document.getElementById('userAgent').textContent = navigator.userAgent;
+        document.getElementById('protocol').textContent = location.protocol;
+        document.getElementById('host').textContent = location.host;
+        document.getElementById('mediaSupport').textContent = navigator.mediaDevices ? 'Yes' : 'No';
+        document.getElementById('getUserMediaSupport').textContent = 
+            (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ? 'Yes' : 'No';
+
+        function updateStatus(message, type = 'info') {
+            status.textContent = message;
+            status.className = `status ${type}`;
+            console.log(`Status: ${message}`);
+        }
+
+        function testAlert() {
+            alert('Alert test works!');
+            console.log('Alert test clicked');
+        }
+
+        function testConsole() {
+            console.log('Console test works!');
+            updateStatus('Console test - check browser console', 'success');
+        }
+
+        async function startCamera() {
+            console.log('Start camera button clicked');
+            updateStatus('Requesting camera access...', 'info');
+
+            try {
+                if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                    throw new Error('getUserMedia is not supported');
+                }
+
+                stream = await navigator.mediaDevices.getUserMedia({
+                    video: { facingMode: 'user' }
+                });
+
+                video.srcObject = stream;
+                video.style.display = 'block';
+                
+                startBtn.disabled = true;
+                stopBtn.disabled = false;
+                
+                updateStatus('Camera started successfully!', 'success');
+                console.log('Camera started successfully');
+
+            } catch (error) {
+                console.error('Camera error:', error);
+                updateStatus(`Camera error: ${error.message}`, 'error');
+            }
+        }
+
+        function stopCamera() {
+            console.log('Stop camera button clicked');
+            
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                stream = null;
+            }
+            
+            video.srcObject = null;
+            video.style.display = 'none';
+            
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+            
+            updateStatus('Camera stopped', 'info');
+            console.log('Camera stopped');
+        }
+
+        // Test if buttons work on page load
+        console.log('Simple test page loaded');
+        updateStatus('Page loaded - ready to test', 'success');
+    </script>
+</body>
+</html>

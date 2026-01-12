@@ -1,0 +1,712 @@
+{
+  "zeshto_soap_recommendations": {
+    "metadata": {
+      "version": "1.4",
+      "last_updated": "2024-01-20",
+      "description": "Comprehensive Zeshto Natural Soap and Hair Care recommendations based on skin issues, skin types, and lifestyle groups",
+      "total_products": 12,
+      "product_categories": ["Skincare Soaps", "Hair Care"],
+      "skin_issues_covered": ["Acne/Pimple", "Dark Spots/Marks/Pigmentation", "Acne Scars", "Dull Skin", "Under Eye Dark Circle", "Anti Aging", "People working outdoors"],
+      "skin_types_covered": ["Oily", "Dry", "Dull", "Sensitive", "Normal"],
+      "lifestyle_groups_covered" : ["Office workers", "Gym-goers", "Nightlife/Party goers", "Luxury lovers", "Students", "Coffee lovers", "Romantic seekers", "Adventurers", "Ayurveda seekers"]
+    },
+    "products": {
+      "zeshto_purity_guard": {
+        "name": "Zeshto Purity Guard",
+        "primary_ingredients": ["Tulsi", "Neem"],
+        "key_benefits": [
+          "Antimicrobial properties",
+          "Antibacterial action",
+          "Anti-inflammatory effects",
+          "Oil control",
+          "Acne prevention",
+          "Skin purification"
+        ],
+        "ayurvedic_properties": "Both Tulsi and Neem are highly regarded in Ayurveda for their healing properties",
+        "target_concerns": ["Acne", "Pimples", "Excess oil", "Bacterial infections", "Inflammation"]
+      },
+      "zeshto_radiance_glow": {
+        "name": "Zeshto Radiance Glow",
+        "primary_ingredients": ["Milk", "Kesar (Saffron)", "Zafran"],
+        "key_benefits": [
+          "Skin brightening",
+          "Anti-pigmentation",
+          "Even skin tone",
+          "Gentle exfoliation",
+          "Natural moisturizing",
+          "Radiance enhancement"
+        ],
+        "active_compounds": "Lactic Acid from milk provides gentle AHA exfoliation",
+        "target_concerns": ["Dark spots", "Pigmentation", "Uneven skin tone", "Dullness", "Dry skin"]
+      },
+      "zeshto_heritage_glow": {
+        "name": "Zeshto Heritage Glow",
+        "primary_ingredients": ["Kesar (Saffron)", "Turmeric", "Sandal", "Almond"],
+        "key_benefits": [
+          "Brightening",
+          "Anti-inflammatory",
+          "Antioxidant protection",
+          "Cooling and soothing",
+          "Gentle nourishment",
+          "Traditional gentle care"
+        ],
+        "traditional_significance": "Combination traditionally gentle and effective for even, glowing tone",
+        "target_concerns": ["Dark spots", "Pigmentation", "Sensitive skin", "Inflammation"]
+      },
+      "zeshto_golden_exfolia": {
+        "name": "Zeshto Golden Exfolia",
+        "primary_ingredients": ["Turmeric", "Honey", "Oats"],
+        "product_type": "With Scrub",
+        "key_benefits": [
+          "Gentle physical exfoliation",
+          "Cell turnover encouragement",
+          "Scar texture smoothing",
+          "Anti-inflammatory healing",
+          "Deep moisturizing",
+          "Natural antiseptic action"
+        ],
+        "target_concerns": ["Acne scars", "Dull skin", "Uneven texture", "Dead skin cells"]
+      },
+      "zeshto_rose_revive": {
+        "name": "Zeshto Rose Revive",
+        "primary_ingredients": ["Rose", "Petal"],
+        "product_type": "With Scrub",
+        "key_benefits": [
+          "Soothing properties",
+          "Anti-inflammatory action",
+          "Gentle petal scrub",
+          "Non-irritating exfoliation",
+          "Hydrating",
+          "Healing and revitalization"
+        ],
+        "target_concerns": ["Acne scars", "Sensitive skin", "Irritation", "Skin texture"]
+      },
+      "zeshto_fresh_blizz": {
+        "name": "Zeshto Fresh Blizz",
+        "primary_ingredients": ["Mushk (Musk)", "Lemon"],
+        "key_benefits": [
+          "Vitamin C brightening",
+          "Gentle exfoliation",
+          "Natural astringent",
+          "Pore tightening",
+          "Oil control",
+          "Uplifting experience"
+        ],
+        "tagline": "Refreshing & uplifting for daily glow",
+        "target_concerns": ["Dull skin", "Excess oil", "Large pores", "Dead skin layer"]
+      },
+      "zeshto_calm_essence": {
+        "name": "Zeshto Calm Essence",
+        "primary_ingredients": ["Goat Milk", "Lavender Flower"],
+        "key_benefits": [
+          "Vitamin A (Retinol) content",
+          "Gentle exfoliation",
+          "Anti-inflammatory",
+          "Calming properties",
+          "Reduces redness",
+          "Gentle nourishment"
+        ],
+        "active_compounds": "Vitamin A, Lactic Acid from goat milk",
+        "target_concerns": ["Sensitive skin", "Anti-aging", "Redness", "Irritation"]
+      },
+      "zeshto_desert_essence": {
+        "name": "Zeshto Desert Essence (With Scrub)",
+        "primary_ingredients": ["Arabic Oudh", "Scrub"],
+        "key_benefits": [
+          "Gentle exfoliation",
+          "Deep cleansing",
+          "Makeup removal",
+          "Toxin elimination",
+          "Antioxidant protection",
+          "Anti-inflammatory care",
+          "Skin revitalization"
+        ],
+        "active_compounds": "Oudh essential oils with natural exfoliating particles",
+        "target_concerns": ["Makeup residue", "Toxins", "Tired skin", "Clogged pores", "Dullness"]
+      },
+      "zeshto_royal_essence": {
+        "name": "Zeshto Royal Essence",
+        "primary_ingredients": ["Oudh"],
+        "key_benefits": [
+          "Luxurious fragrance",
+          "Anti-aging properties",
+          "Deep moisturizing",
+          "Skin nourishment",
+          "Antioxidant protection",
+          "Premium skincare experience"
+        ],
+        "active_compounds": "Pure Oudh essential oils",
+        "target_concerns": ["Dry skin", "Aging", "Luxury skincare", "Aromatherapy"]
+      },
+      "zeshto_charluna_glow": {
+        "name": "Zeshto CharLuna Glow",
+        "primary_ingredients": [
+          "Pure Lily Extract",
+          "Vetiver Essential Oil",
+          "Activated Charcoal Powder",
+          "Natural Kaolin Clay"
+        ],
+        "key_benefits": [
+          "Gentle detox",
+          "Pore cleansing",
+          "Removes impurities",
+          "Non-stripping formula",
+          "Deep purification"
+        ],
+        "active_compounds": "Charcoal and Kaolin Clay for detoxification",
+        "target_concerns": ["Acne", "Pimples", "Dry Skin", "Clogged Pores"]
+      },
+      "zeshto_mint_aura": {
+        "name": "Zeshto Mint Aura",
+        "primary_ingredients": [
+          "Mint Extract",
+          "Menthol",
+          "Ylang-Ylang Oil",
+          "Activated Charcoal",
+          "Bentonite Yellow Clay"
+        ],
+        "key_benefits": [
+          "Aggressive oil control",
+          "Clarifies skin",
+          "Cooling and refreshing effect",
+          "Sebum absorption",
+          "Deep cleansing"
+        ],
+        "active_compounds": "Menthol for cooling; Activated Charcoal and Bentonite Clay for sebum absorption",
+        "target_concerns": ["Dull Skin", "Oily Skin", "Excess Sebum", "Clogged Pores"]
+      },
+      "zeshto_amber_calm": {
+        "name": "Zeshto Amber Calm",
+        "primary_ingredients": [
+          "Patchouli",
+          "Clove",
+          "Cedar",
+          "Amber & Vanilla Essential Oil Blend",
+          "Activated Charcoal Powder",
+          "Natural Kaolin Clay"
+        ],
+        "key_benefits": [
+          "Antioxidant detox",
+          "Calms sensitive skin",
+          "Anti-inflammatory action",
+          "Gentle charcoal detox",
+          "Soothes and nourishes"
+        ],
+        "active_compounds": "Clove and Vanilla for anti-inflammatory and antioxidant effects; Charcoal for gentle detox",
+        "target_concerns": ["Anti Aging", "Sensitive Skin", "Inflammation", "Dullness", "Mild Acne"]
+      },
+      "zeshto_hair_vitalizer": {
+        "name": "Zeshto Hair Vitalizer Shampoo Bar",
+        "primary_ingredients": ["Reeta", "Amla", "Shikakai"],
+        "product_category": "Hair Care",
+        "key_benefits": [
+          "Strengthens hair roots",
+          "Prevents dandruff",
+          "Natural shine enhancement",
+          "Chemical-free cleansing",
+          "Scalp nourishment",
+          "Traditional hair care"
+        ],
+        "active_compounds": "Natural saponins from Reeta and Shikakai, Vitamin C from Amla",
+        "target_concerns": ["Weak hair", "Dandruff", "Dull hair", "Chemical damage", "Scalp health"]
+      }
+    },
+    "recommendations_by_skin_issue": {
+      "acne_pimple": {
+        "description": "Recommendations for acne-prone skin with active breakouts",
+        "by_skin_type": {
+          "oily_skin": {
+            "recommended_product": "Zeshto Purity Guard",
+            "ingredients": "Tulsi + Neem",
+            "benefits_explanation": "Both are highly regarded in Ayurveda for their antimicrobial, antibacterial, and anti-inflammatory properties. Neem helps control excess oil (sebum) production and is potent against acne-causing bacteria. Tulsi further purifies the skin, helps soothe inflammation and redness associated with breakouts, and aids in reducing blemishes for a clear complexion.",
+            "usage_notes": "Ideal for daily use on oily, acne-prone skin"
+          },
+          "dry_skin": {
+            "recommended_product": "Zeshto CharLuna Glow",
+            "ingredients": "Pure Lily Extract, Vetiver Essential Oil, Activated Charcoal Powder, Natural Kaolin Clay",
+            "benefits_explanation": "Gentle detox and pore cleansing; charcoal and clay detoxify pores without stripping the skin.",
+            "usage_notes": "Suitable for dry, acne-prone skin; follow with moisturizer for best results."
+          },
+          "dull_skin": {
+            "recommended_product": "Zeshto Purity Guard",
+            "ingredients": "Tulsi + Neem",
+            "benefits_explanation": "The purifying and cleansing action of these ingredients helps detoxify the skin and remove impurities that contribute to dullness. Their anti-acne benefits ensure a clearer, healthier-looking surface.",
+            "usage_notes": "Helps restore natural radiance while treating acne"
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto CharLuna Glow",
+            "ingredients": "Pure Lily Extract, Vetiver Essential Oil, Activated Charcoal Powder, Natural Kaolin Clay",
+            "benefits_explanation": "Gentle detox and pore cleansing; charcoal and clay purify pores without stripping the skin, making it suitable for acne-prone sensitive skin.",
+            "usage_notes": "Suitable for sensitive, acne-prone skin; follow with a gentle moisturizer.",
+            "precautions": ["Patch test recommended", "Start with less frequent use"]
+          }
+        }
+      },
+      "dark_spots_pigmentation": {
+        "description": "Recommendations for hyperpigmentation, dark spots, and uneven skin tone",
+        "by_skin_type": {
+          "oily_skin": {
+            "recommended_product": "Zeshto Heritage Glow",
+            "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+            "benefits_explanation": "Powerful brightening and anti-inflammatory action; the concentrated Kesar and Turmeric blend helps fade dark spots, even skin tone, and calm inflammation while being suitable for oily skin.",
+            "usage_notes": "Ideal for oily skin with dark spots; use consistently for best brightening results."
+          },
+          "dry_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Milk + Kesar + Zafran",
+            "benefits_explanation": "Kesar (Saffron) is excellent for brightening and reducing hyperpigmentation. Milk is a natural moisturizer, providing essential fats and proteins to help hydrate and nourish dry skin while the Lactic Acid gently fades marks, promoting a smoother, glowing complexion.",
+            "usage_notes": "Provides both brightening and moisturizing benefits"
+          },
+          "dull_skin": {
+            "recommended_product": "Zeshto Heritage Glow",
+            "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+            "benefits_explanation": "Powerful brightening and anti-inflammatory action; the concentrated Kesar and Turmeric blend helps fade dark spots, reduce dullness, and enhance natural radiance.",
+            "usage_notes": "Great for dull skin with pigmentation issues; use regularly for visible brightening."
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Kashmirii Kesar (Saffron), Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+            "benefits_explanation": "Brightening and Anti-Aging: Saffron and Milk Cream provide powerful antioxidant and intense moisture",
+            "usage_notes": "Traditional gentle formula ideal for sensitive skin",
+            "precautions": [
+              "Patch test recommended",
+              "Start with gentle use"
+            ]
+          }
+        }
+      },
+      "acne_scars": {
+        "description": "Recommendations for post-acne scarring and texture improvement",
+        "by_skin_type": {
+          "dry_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Kashmirii Kesar (Saffron), Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+            "benefits_explanation": "Brightening and anti-aging; saffron and milk cream deliver powerful antioxidants and intense moisture, helping improve the appearance of acne scars while deeply nourishing dry skin.",
+            "usage_notes": "Ideal for dry skin with acne scars; use consistently for improved brightness and smoother texture."
+          },
+          "oily_skin": {
+            "recommended_product": "Zeshto Heritage Glow",
+            "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+            "benefits_explanation": "Powerful brightening and anti-inflammatory action; the concentrated Kesar and Turmeric blend helps fade acne scars, reduce pigmentation, and calm inflammation while remaining suitable for oily skin.",
+            "usage_notes": "Great for oily skin with acne scars; use consistently for clearer, brighter skin."
+          },
+          "dull_skin": {
+            "recommended_product": "Zeshto Heritage Glow",
+            "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+            "benefits_explanation": "Powerful brightening and anti-inflammatory action; the concentrated Kesar and Turmeric blend helps fade acne scars, reduce dullness, and restore natural radiance.",
+            "usage_notes": "Ideal for dull skin with acne scars; consistent use enhances brightness and overall skin tone."
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Kashmirii Kesar (Saffron), Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+            "benefits_explanation": "Brightening and anti-aging; saffron and milk cream deliver powerful antioxidants and intense moisture, helping improve acne scars while soothing and nourishing sensitive skin.",
+            "usage_notes": "Ideal for sensitive skin with acne scars; apply gently and follow with a simple moisturizer.",
+            "precautions": ["Patch test recommended", "Start with less frequent use", "Monitor skin response"]
+          }
+        }
+      },
+      "pigmentation": {
+        "description": "Recommendations for pigmentation, dark patches, and uneven skin tone",
+        "by_skin_type": {
+          "dry_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Kashmirii Kesar (Saffron), Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+            "benefits_explanation": "Brightening and anti-aging; saffron and milk cream provide powerful antioxidants and intense moisture, helping reduce pigmentation and improve overall skin tone.",
+            "usage_notes": "Ideal for dry skin with pigmentation; use consistently for brightening and even complexion."
+          },
+          "oily_skin": {
+            "recommended_product": "Zeshto Heritage Glow",
+            "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+            "benefits_explanation": "Powerful brightening and anti-inflammatory action; concentrated Kesar and Turmeric blend reduces pigmentation while keeping oily skin balanced.",
+            "usage_notes": "Great for oily skin with pigmentation; consistent use helps control oil and improve clarity."
+          },
+          "dull_skin": {
+            "recommended_product": "Zeshto Heritage Glow",
+            "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+            "benefits_explanation": "Brightening and anti-inflammatory care; helps fade pigmentation while reviving dull skin with natural radiance.",
+            "usage_notes": "Perfect for dull skin with pigmentation; use regularly to restore brightness."
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Kashmirii Kesar (Saffron), Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+            "benefits_explanation": "Brightening and anti-aging; saffron and milk cream nourish sensitive skin while gently reducing pigmentation.",
+            "usage_notes": "Suitable for sensitive skin prone to pigmentation; apply gently.",
+            "precautions": ["Patch test recommended", "Start with less frequent use", "Monitor skin response"]
+          }
+        }
+      },
+      "dull_skin": {
+        "description": "Recommendations for restoring natural radiance and glow",
+        "by_skin_type": {
+          "dry_skin": {
+            "recommended_product": "Zeshto Golden Exfolia",
+            "ingredients": "Kokum Butter, Honey, Turmeric Powder, Oats (Dalia)",
+            "benefits_explanation": "Healing exfoliation and brightening; Oats provide gentle physical buffing while Honey and Turmeric help heal, soothe, and brighten dull, dry skin.",
+            "usage_notes": "Ideal for dry, dull skin needing gentle exfoliation and nourishment"
+          },
+          "oily_skin": {
+            "recommended_product": "Zeshto Mint Aura",
+            "ingredients": "Mint Extract, Menthol, Ylang-Ylang Oil, Activated Charcoal, Bentonite Yellow Clay",
+            "benefits_explanation": "Aggressive oil control and clarifying; Mint and Menthol cool and stimulate the skin while Activated Charcoal and Bentonite Clay absorb excess sebum and purify dull, oily skin.",
+            "usage_notes": "Perfect for oily, dull skin needing strong oil control and clarifying care"
+          },
+          "dull_skin_primary": {
+            "recommended_product": "Zeshto Mint Aura",
+            "ingredients": "Mint Extract, Menthol, Ylang-Ylang Oil, Activated Charcoal, Bentonite Yellow Clay",
+            "benefits_explanation": "Aggressive oil control and clarifying; Mint and Menthol cool and stimulate while Activated Charcoal and Bentonite Clay absorb sebum and refresh dull skin.",
+            "usage_notes": "Ideal for persistent dullness needing clarifying and oil-balancing care"
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto Rose Revive",
+            "ingredients": "Kokum Butter, Rose Powder, Rose Petals, French Pink Clay",
+            "benefits_explanation": "Toning, balancing, and gentle detox; Rose provides natural astringency and toning while French Pink Clay offers mild detoxification suitable for sensitive, dull skin.",
+            "usage_notes": "Perfect for sensitive, dull skin needing gentle toning and revitalizing care"
+          }
+        }
+      },
+      "anti_aging": {
+        "description": "Recommendations for anti-aging care and prevention of premature aging",
+        "by_skin_type": {
+          "dry_skin": {
+            "recommended_product": "Zeshto Radiance Glow",
+            "ingredients": "Kashmirii Kesar (Saffron), Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+            "benefits_explanation": "Brightening and anti-aging; saffron and milk cream provide powerful antioxidant support and intense moisture, helping improve elasticity and reduce signs of aging in dry skin.",
+            "usage_notes": "Deep nourishment and anti-aging hydration ideal for dry, mature skin"
+          },
+          "oily_skin": {
+            "recommended_product": "Zeshto Fresh Blizz",
+            "ingredients": "Patchouli Essential Oil, Lime Essential Oil, Bergamot Essential Oil, AloeVera Puree",
+            "benefits_explanation": "Purifying and balancing; Lime and Bergamot offer mild astringent action while Patchouli and AloeVera soothe, hydrate, and support anti-aging without heaviness—ideal for oily skin.",
+            "usage_notes": "Light, non-greasy anti-aging care suitable for oily skin"
+          },
+          "dull_skin": {
+            "recommended_product": "Zeshto Amber Calm",
+            "ingredients": "Patchouli, Clove, Cedar, Amber & Vanilla Essential Oil Blend, Activated Charcoal Powder, Natural Kaolin Clay",
+            "benefits_explanation": "Antioxidant detox and calming; Clove and Vanilla provide anti-inflammatory and antioxidant benefits while gentle charcoal detox helps renew dull, aging skin.",
+            "usage_notes": "Ideal for dull, aging skin needing detox, calmness, and renewed brightness"
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto Amber Calm",
+            "ingredients": "Patchouli, Clove, Cedar, Amber & Vanilla Essential Oil Blend, Activated Charcoal Powder, Natural Kaolin Clay",
+            "benefits_explanation": "Antioxidant detox and calming; Clove and Vanilla provide anti-inflammatory and antioxidant support while the gentle charcoal detox helps purify without irritating sensitive skin.",
+            "usage_notes": "Suitable for sensitive, aging skin needing gentle detox and calming care"
+          }
+        }
+      },
+      "under_eye_dark_circle": {
+        "description": "Recommendations for reducing under eye dark circles and puffiness",
+        "by_skin_type": {
+          "dry_skin": {
+            "recommended_product": "Zeshto Royal Essence",
+            "ingredients": "Agar Oil, Sandalwood Oil, Shea Butter, Cocoa Butter, Kokum Butter",
+            "benefits_explanation": "Intense moisture and calming; the highly emollient butters deeply nourish dry under-eye skin while soothing Sandalwood helps reduce darkness and irritation.",
+            "usage_notes": "Ideal for dry under-eye skin needing deep moisture and calming care"
+          },
+          "oily_skin": {
+            "recommended_product": "Zeshto Sandal Radiance",
+            "ingredients": "Kokum Butter, Red Sandal Powder, Sandal Aroma Oil",
+            "benefits_explanation": "Tone correction and cooling; Red Sandal helps improve skin texture and clarity while providing natural cooling to calm inflammation in the under-eye area.",
+            "usage_notes": "Ideal for oily under-eye skin needing tone correction and cooling care"
+          },
+          "dull_skin": {
+            "recommended_product": "Zeshto Sandal Radiance",
+            "ingredients": "Kokum Butter, Red Sandal Powder, Sandal Aroma Oil",
+            "benefits_explanation": "Tone correction and cooling; Red Sandal traditionally improves skin texture and clarity while providing a natural cooling effect to calm inflammation and reduce under-eye dullness.",
+            "usage_notes": "Ideal for dull under-eye skin needing cooling, soothing, and tone correction"
+          },
+          "sensitive_skin": {
+            "recommended_product": "Zeshto Calm Essence",
+            "ingredients": "Kokum Butter, Goat Milk Powder, Lavender Aroma Oil",
+            "benefits_explanation": "Extreme soothing and gentle renewal; Goat Milk provides mild lactic acid exfoliation and deep moisture while Lavender calms sensitive under-eye skin.",
+            "usage_notes": "Perfect for sensitive under-eye skin needing soothing, gentle renewal, and moisture"
+          }
+        }
+      },
+      "people_working_outdoors": {
+        "description": "Recommendations for people exposed to sun, dust, and heat",
+        "by_skin_type": {
+          "normal_skin": {
+            "recommended_product": "Zeshto Golden Exfolia",
+            "ingredients": "Turmeric + Honey + Oats (With Scrub)",
+            "benefits_explanation": "Daily exposure requires deep cleansing and healing. Oats gently scrub away accumulated dust and dead skin. Turmeric and Honey provide strong antiseptic, anti-inflammatory, and healing properties to counter sun/heat damage.",
+            "usage_notes": "Deep cleansing and healing for outdoor exposure"
+          }
+        }
+      }
+    },
+    "lifestyle_recommendations": {
+      "description": "Skin issue–based targeted recommendations for normal skin",
+
+      "office_workers": {
+        "lifestyle_description": "Acne / Pimple – Dry Skin",
+        "skin_type": "Dry Skin",
+        "recommended_product": "Zeshto CharLuna Glow",
+        "ingredients": "Pure Lily Extract, Vetiver Essential Oil, Activated Charcoal Powder, Natural Kaolin Clay",
+        "benefits_explanation": "Gentle detox and pore cleansing; charcoal and clay detoxify pores without stripping",
+        "target_concerns": ["Acne", "Pimples", "Dry Skin", "Clogged Pores"]
+      },
+
+      "gym_goers": {
+        "lifestyle_description": "Acne / Pimple – Oily Skin",
+        "skin_type": "Oily Skin",
+        "recommended_product": "Zeshto Purity Guard",
+        "ingredients": "Kokum Butter, Neem Extract, Neem Powder, Neem Oil, Basil Oil",
+        "benefits_explanation": "Targeted anti-acne care with potent antibacterial and antifungal ingredients",
+        "target_concerns": ["Acne", "Pimples", "Oiliness", "Bacterial buildup"]
+      },
+
+      "nightlife_party_goers": {
+        "lifestyle_description": "Acne / Pimple – Dull Skin",
+        "skin_type": "Dull Skin",
+        "recommended_product": "Zeshto Purity Guard",
+        "ingredients": "Kokum Butter, Neem Extract, Neem Powder, Neem Oil, Basil Oil",
+        "benefits_explanation": "Potent antibacterial blend to purify dull, acne-prone skin",
+        "target_concerns": ["Acne", "Dullness", "Bacteria", "Impurities"]
+      },
+
+      "luxury_lifestyle_lovers": {
+        "lifestyle_description": "Acne / Pimple – Sensitive Skin",
+        "skin_type": "Sensitive Skin",
+        "recommended_product": "Zeshto CharLuna Glow",
+        "ingredients": "Pure Lily Extract, Vetiver Essential Oil, Activated Charcoal Powder, Natural Kaolin Clay",
+        "benefits_explanation": "Gentle detox suitable for sensitive skin, unclogs pores without irritation",
+        "target_concerns": ["Sensitive Skin", "Acne", "Pore cleansing", "Irritation-free detox"]
+      },
+
+      "students_young_professionals": {
+        "lifestyle_description": "Dark Spots / Marks – Dry Skin",
+        "skin_type": "Dry Skin",
+        "recommended_product": "Zeshto Radiance Glow",
+        "ingredients": "Kashmirii Kesar, Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+        "benefits_explanation": "Brightening and anti-aging; saffron and milk cream intensely moisturize",
+        "target_concerns": ["Dark Spots", "Marks", "Dry Skin", "Brightening"]
+      },
+
+      "dry_sensitive_skin_people": {
+        "lifestyle_description": "Dark Spots / Marks – Oily Skin",
+        "skin_type": "Oily Skin",
+        "recommended_product": "Zeshto Heritage Glow",
+        "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+        "benefits_explanation": "Powerful brightening and anti-inflammatory care for oily skin",
+        "target_concerns": ["Pigmentation", "Dark Spots", "Oiliness", "Inflammation"]
+      },
+
+      "coffee_lovers": {
+        "lifestyle_description": "Dark Spots / Marks – Dull Skin",
+        "skin_type": "Dull Skin",
+        "recommended_product": "Zeshto Heritage Glow",
+        "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+        "benefits_explanation": "Brightens dull skin while reducing dark spots",
+        "target_concerns": ["Dullness", "Dark Spots", "Uneven tone"]
+      },
+
+      "romantic_emotional_balance_seekers": {
+        "lifestyle_description": "Dark Spots / Marks – Sensitive Skin",
+        "skin_type": "Sensitive Skin",
+        "recommended_product": "Zeshto Radiance Glow",
+        "ingredients": "Kashmirii Kesar, Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+        "benefits_explanation": "Brightening + intense moisture without irritating sensitive skin",
+        "target_concerns": ["Sensitive Skin", "Pigmentation", "Moisture barrier"]
+      },
+
+      "adventurers_travelers": {
+        "lifestyle_description": "Acne Scars – Dry Skin",
+        "skin_type": "Dry Skin",
+        "recommended_product": "Zeshto Radiance Glow",
+        "ingredients": "Kashmirii Kesar, Saffron Oil, Thick Milk Cream, Shea Butter, Kokum Butter",
+        "benefits_explanation": "Brightening and anti-aging with deep moisturization for scar reduction",
+        "target_concerns": ["Acne Scars", "Dryness", "Texture repair"]
+      },
+
+      "ayurveda_seekers": {
+        "lifestyle_description": "Acne Scars – Oily Skin",
+        "skin_type": "Oily Skin",
+        "recommended_product": "Zeshto Heritage Glow",
+        "ingredients": "Kokum Butter, Kesar Extract, Turmeric Powder",
+        "benefits_explanation": "Anti-inflammatory and brightening—ideal for oily, scar-prone skin",
+        "target_concerns": ["Acne Scars", "Oiliness", "Inflammation"]
+      }
+    },
+    "normal_skin_general_recommendations": {
+      "description": "Comprehensive product recommendations for normal skin types with detailed benefits",
+      "purity_guard": {
+        "skin_type": "Normal Skin",
+        "recommended_product": "Zeshto Purity Guard",
+        "ingredients": "Tulsi + Neem",
+        "benefits_explanation": "Natural antibacterial protection, fights acne, keeps skin clean & stress-free.",
+        "target_concerns": ["Acne prevention", "Bacterial protection", "Stress-free skin", "Clean complexion"]
+      },
+      "calm_essence": {
+        "skin_type": "Normal Skin",
+        "recommended_product": "Zeshto Calm Essence",
+        "ingredients": "Goat Milk + Lavender Flower",
+        "benefits_explanation": "Goat milk deeply moisturizes, lavender calms sensitivity & stress, balances pH.",
+        "target_concerns": ["Deep moisturization", "Sensitivity relief", "Stress management", "pH balance"]
+      },
+      "rose_revive": {
+        "skin_type": "Normal Skin",
+        "recommended_product": "Zeshto Rose Revive",
+        "ingredients": "Rose Petals Scrub",
+        "benefits_explanation": "Rose refreshes and softens skin, natural scrub removes dull layers, uplifts mood.",
+        "target_concerns": ["Skin refreshing", "Softening", "Exfoliation", "Mood enhancement"]
+      },
+      "hair_vitalizer": {
+        "skin_type": "Normal Skin",
+        "recommended_product": "Zeshto Hair Vitalizer Shampoo Bar",
+        "ingredients": "Reeta + Amla + Shikakai",
+        "benefits_explanation": "Strengthens hair roots, prevents dandruff, natural shine without chemicals.",
+        "target_concerns": ["Hair strengthening", "Dandruff prevention", "Natural shine", "Chemical-free care"]
+      }
+    },
+    "ingredient_profiles": {
+      "tulsi": {
+        "scientific_name": "Ocimum sanctum",
+        "properties": ["Antimicrobial", "Anti-inflammatory", "Purifying", "Soothing"],
+        "skin_benefits": "Helps reduce inflammation, purifies skin, soothes irritation",
+        "ayurvedic_significance": "Sacred herb with powerful healing properties"
+      },
+      "neem": {
+        "scientific_name": "Azadirachta indica",
+        "properties": ["Antibacterial", "Antifungal", "Oil-controlling", "Acne-fighting"],
+        "skin_benefits": "Controls sebum production, fights acne-causing bacteria, clears pores",
+        "ayurvedic_significance": "Traditional remedy for skin disorders"
+      },
+      "kesar_saffron": {
+        "scientific_name": "Crocus sativus",
+        "properties": ["Brightening", "Anti-pigmentation", "Antioxidant", "Luxurious"],
+        "skin_benefits": "Evens skin tone, reduces dark spots, provides natural glow",
+        "traditional_use": "Used in royal beauty treatments for centuries"
+      },
+      "milk": {
+        "active_compounds": ["Lactic Acid", "Proteins", "Fats", "Vitamins"],
+        "properties": ["Moisturizing", "Gentle exfoliation", "Nourishing", "Softening"],
+        "skin_benefits": "Natural moisturizer, gentle AHA exfoliation, skin nourishment"
+      },
+      "turmeric": {
+        "scientific_name": "Curcuma longa",
+        "properties": ["Anti-inflammatory", "Antioxidant", "Brightening", "Healing"],
+        "skin_benefits": "Reduces inflammation, promotes healing, enhances brightness and evenness",
+        "traditional_use": "Ancient Ayurvedic remedy for skin health and beauty"
+      },
+      "sandalwood": {
+        "scientific_name": "Santalum album",
+        "properties": ["Cooling", "Soothing", "Anti-inflammatory", "Aromatic"],
+        "skin_benefits": "Calms irritated skin, provides cooling effect, reduces inflammation",
+        "traditional_significance": "Sacred wood used in traditional beauty treatments"
+      },
+      "almond": {
+        "scientific_name": "Prunus dulcis",
+        "properties": ["Nourishing", "Moisturizing", "Vitamin E rich", "Gentle"],
+        "skin_benefits": "Provides gentle nourishment, moisturizes, protects with antioxidants",
+        "active_compounds": ["Vitamin E", "Healthy fats", "Proteins"]
+      },
+      "honey": {
+        "properties": ["Moisturizing", "Antiseptic", "Healing", "Humectant"],
+        "skin_benefits": "Deep moisturizing, natural antiseptic action, promotes healing",
+        "special_properties": "Natural humectant that draws moisture to the skin"
+      },
+      "oats": {
+        "scientific_name": "Avena sativa",
+        "properties": ["Gentle exfoliation", "Soothing", "Anti-inflammatory", "Cleansing"],
+        "skin_benefits": "Provides gentle physical exfoliation, soothes irritation, encourages cell turnover",
+        "texture_benefits": "Natural scrub that smooths skin texture"
+      },
+      "rose": {
+        "scientific_name": "Rosa damascena",
+        "properties": ["Soothing", "Anti-inflammatory", "Hydrating", "Aromatic"],
+        "skin_benefits": "Soothes sensitive skin, provides hydration, aids in healing and revitalization",
+        "traditional_use": "Symbol of beauty and luxury in skincare"
+      },
+      "lemon": {
+        "scientific_name": "Citrus limon",
+        "active_compounds": ["Vitamin C", "Citric Acid", "Natural oils"],
+        "properties": ["Brightening", "Astringent", "Exfoliating", "Antioxidant"],
+        "skin_benefits": "Brightens complexion, tightens pores, provides gentle exfoliation",
+        "precautions": ["May increase photosensitivity", "Use with sun protection"]
+      },
+      "mushk_musk": {
+        "properties": ["Aromatic", "Uplifting", "Luxurious"],
+        "skin_benefits": "Provides uplifting sensory experience, enhances product appeal",
+        "usage_note": "Primarily for fragrance and sensory enhancement"
+      },
+      "coffee": {
+        "scientific_name": "Coffea arabica",
+        "active_compounds": ["Caffeine", "Antioxidants", "Chlorogenic acids"],
+        "properties": ["Vasoconstrictor", "Antioxidant", "Brightening", "Firming", "Circulation-stimulating"],
+        "skin_benefits": "Reduces puffiness, stimulates circulation, provides antioxidant protection, brightening effect",
+        "special_properties": "Caffeine helps tighten blood vessels and reduce dark circles"
+      },
+      "berries": {
+        "active_compounds": ["Polyphenols", "Anthocyanins", "Vitamin C", "Antioxidants"],
+        "properties": ["Antioxidant-rich", "Anti-inflammatory", "Protective", "Brightening"],
+        "skin_benefits": "Protects against free radical damage, provides anti-inflammatory care, brightens complexion",
+        "special_properties": "Coffee Berry Extract is particularly rich in antioxidants"
+      },
+      "goat_milk": {
+        "active_compounds": ["Vitamin A (Retinol)", "Lactic Acid", "Proteins", "Fats"],
+        "properties": ["Anti-aging", "Gentle exfoliation", "Moisturizing", "Nourishing"],
+        "skin_benefits": "Provides mild anti-aging benefits, gentle exfoliation, deep nourishment",
+        "special_properties": "Natural source of Vitamin A and gentle AHA"
+      },
+      "lavender": {
+        "scientific_name": "Lavandula angustifolia",
+        "properties": ["Anti-inflammatory", "Calming", "Soothing", "Aromatic", "Healing"],
+        "skin_benefits": "Reduces redness and irritation, calms sensitive skin, promotes healing",
+        "traditional_use": "Known for its calming and therapeutic properties in aromatherapy and skincare"
+      },
+      "oudh": {
+        "scientific_name": "Aquilaria species",
+        "active_compounds": ["Essential oils", "Sesquiterpenes", "Aromatic compounds"],
+        "properties": ["Antioxidant", "Anti-inflammatory", "Moisturizing", "Aromatic", "Luxurious"],
+        "skin_benefits": "Provides deep moisturization, anti-aging benefits, antioxidant protection, and luxurious aromatherapy experience",
+        "traditional_use": "Prized in Middle Eastern and Asian cultures for its exotic fragrance and therapeutic properties, historically associated with royalty and luxury",
+        "special_properties": "One of the most expensive and sought-after aromatic ingredients in the world"
+      },
+      "reeta": {
+        "scientific_name": "Sapindus mukorossi",
+        "active_compounds": ["Natural saponins", "Sapogenins"],
+        "properties": ["Natural cleanser", "Gentle", "Foaming", "Antimicrobial"],
+        "hair_benefits": "Natural cleansing without stripping oils, gentle on scalp, creates natural lather",
+        "traditional_use": "Traditional Indian hair cleanser, known as 'soap nuts', used for centuries for gentle hair washing",
+        "special_properties": "100% natural surfactant, eco-friendly alternative to chemical shampoos"
+      },
+      "amla": {
+        "scientific_name": "Phyllanthus emblica",
+        "active_compounds": ["Vitamin C", "Tannins", "Antioxidants", "Gallic acid"],
+        "properties": ["Antioxidant-rich", "Strengthening", "Nourishing", "Anti-inflammatory"],
+        "hair_benefits": "Strengthens hair follicles, prevents premature graying, adds natural shine, reduces hair fall",
+        "traditional_use": "Revered in Ayurveda as 'Amalaki', considered one of the most potent rejuvenating herbs for hair and overall health",
+        "special_properties": "One of the richest natural sources of Vitamin C, essential for collagen production"
+      },
+      "shikakai": {
+        "scientific_name": "Acacia concinna",
+        "active_compounds": ["Natural saponins", "Vitamins A, C, D, E, K"],
+        "properties": ["Natural cleanser", "pH balancing", "Conditioning", "Detangling"],
+        "hair_benefits": "Natural conditioning, prevents dandruff, adds shine, maintains scalp pH balance",
+        "traditional_use": "Known as 'fruit for hair' in Sanskrit, traditional Ayurvedic hair cleanser and conditioner",
+        "special_properties": "Natural pH of 5.5-6.5, perfectly matches hair's natural pH, acts as both cleanser and conditioner"
+      }
+    },
+    "usage_guidelines": {
+      "general_instructions": [
+        "Use lukewarm water for best results",
+        "Gently massage in circular motions",
+        "Rinse thoroughly",
+        "Pat dry with clean towel",
+        "Follow with appropriate moisturizer if needed"
+      ],
+      "frequency": {
+        "oily_skin": "Twice daily (morning and evening)",
+        "dry_skin": "Once daily (evening) or as needed",
+        "sensitive_skin": "Start with alternate days, increase as tolerated",
+        "normal_skin": "Once or twice daily as needed"
+      },
+      "precautions": [
+        "Always perform patch test for sensitive skin",
+        "Discontinue use if irritation occurs",
+        "Avoid contact with eyes",
+        "Store in cool, dry place"
+      ]
+    }
+  }
+}

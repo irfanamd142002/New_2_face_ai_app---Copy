@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo User Login Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+            color: #0c5460;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Demo User Login Test</h1>
+        <p>This page tests the demo user login functionality.</p>
+        
+        <div class="test-section info">
+            <h3>📋 Demo User Credentials</h3>
+            <p><strong>Email:</strong> demo@zeshto.com</p>
+            <p><strong>Password:</strong> Welcome@123</p>
+        </div>
+
+        <div class="test-section">
+            <h3>🔍 API Login Test</h3>
+            <p>Test the login API directly:</p>
+            <button onclick="testAPILogin()">Test API Login</button>
+            <div id="apiResult" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>🏥 Backend Health Test</h3>
+            <p>Test backend connectivity:</p>
+            <button onclick="testBackendHealth()">Test Backend Health</button>
+        </div>
+
+        <div class="test-section">
+            <h3>🌐 Frontend Login Test</h3>
+            <p>Open the main login page:</p>
+            <button onclick="openLoginPage()">Open Login Page</button>
+            <button onclick="openMainApp()">Open Main App</button>
+        </div>
+
+        <div class="test-section">
+            <h3>📊 Server Status</h3>
+            <button onclick="checkServerStatus()">Check Backend Server</button>
+            <div id="serverStatus" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>🔧 Debug Tools</h3>
+            <button onclick="clearStorage()">Clear Local Storage</button>
+            <button onclick="checkAuthStatus()">Check Auth Status</button>
+            <div id="authStatus" class="result"></div>
+        </div>
+    </div>
+
+    <script>
+        async function testAPILogin() {
+            const resultDiv = document.getElementById('apiResult');
+            resultDiv.textContent = 'Testing login...';
+            resultDiv.className = 'result info';
+
+            try {
+                const response = await fetch('http://localhost:5000/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: 'demo@zeshto.com',
+                        password: 'Welcome@123'
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    resultDiv.textContent = `✅ Login successful!\n\nResponse:\n${JSON.stringify(data, null, 2)}`;
+                    resultDiv.className = 'result success';
+                } else {
+                    resultDiv.textContent = `❌ Login failed!\n\nStatus: ${response.status}\nResponse:\n${JSON.stringify(data, null, 2)}`;
+                    resultDiv.className = 'result error';
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Network error!\n\nError: ${error.message}`;
+                resultDiv.className = 'result error';
+            }
+        }
+
+        async function checkServerStatus() {
+            const resultDiv = document.getElementById('serverStatus');
+            resultDiv.textContent = 'Checking server...';
+            resultDiv.className = 'result info';
+
+            try {
+                const response = await fetch('http://localhost:5000/api/health');
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.textContent = `✅ Server is running!\n\nResponse:\n${JSON.stringify(data, null, 2)}`;
+                    resultDiv.className = 'result success';
+                } else {
+                    resultDiv.textContent = `⚠️ Server responded with status: ${response.status}`;
+                    resultDiv.className = 'result error';
+                }
+            } catch (error) {
+                resultDiv.textContent = `❌ Cannot connect to server!\n\nError: ${error.message}`;
+                resultDiv.className = 'result error';
+            }
+        }
+
+        function openLoginPage() {
+            window.open('http://localhost:5173/login', '_blank');
+        }
+
+        function openMainApp() {
+            window.open('http://localhost:5173/', '_blank');
+        }
+
+        function clearStorage() {
+            localStorage.clear();
+            sessionStorage.clear();
+            alert('Storage cleared!');
+            checkAuthStatus();
+        }
+
+        function checkAuthStatus() {
+            const resultDiv = document.getElementById('authStatus');
+            const token = localStorage.getItem('token');
+            const user = localStorage.getItem('user');
+            
+            if (token) {
+                try {
+                    const userData = user ? JSON.parse(user) : null;
+                    resultDiv.textContent = `✅ User is logged in!\n\nToken: ${token.substring(0, 20)}...\nUser: ${JSON.stringify(userData, null, 2)}`;
+                    resultDiv.className = 'result success';
+                } catch (error) {
+                    resultDiv.textContent = `⚠️ Invalid user data in storage!\n\nError: ${error.message}`;
+                    resultDiv.className = 'result error';
+                }
+            } else {
+                resultDiv.textContent = '❌ No authentication data found in local storage.';
+                resultDiv.className = 'result error';
+            }
+        }
+
+        // Auto-check auth status on page load
+        window.onload = function() {
+            checkAuthStatus();
+        };
+    </script>
+</body>
+</html>
